@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "title": "Tailwind CSS",
+    "url": "https://tailwindcss.com",
+    "description": "Utility-first CSS framework",
+    "category": "Tools",
+    "createdAt": "2024-01-01",
+    "score": 1714000000000
+  },
+  {
+    "id": "2",
+    "title": "Vite",
+    "url": "https://vitejs.dev",
+    "description": "Fast frontend tooling",
+    "category": "Development",
+    "createdAt": "2024-01-02",
+    "score": 1713999000000
+  },
+  {
+    "id": "3",
+    "title": "React",
+    "url": "https://reactjs.org",
+    "description": "Build UIs",
+    "category": "Development",
+    "createdAt": "2024-01-03",
+    "score": 1713998000000
+  },
+  {
+    "id": "4",
+    "title": "google",
+    "url": "https://google.com",
+    "description": "Big G",
+    "category": "AI",
+    "createdAt": "2024-01-04",
+    "score": 1713997000000
+  }
+]

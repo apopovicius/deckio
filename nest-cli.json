@@ -1,0 +1,29 @@
+{
+  "monorepo": true,
+  "root": "apps/deckio",
+  "sourceRoot": "apps/deckio/src",
+  "compilerOptions": {
+    "webpack": true,
+    "tsConfigPath": "apps/deckio/tsconfig.app.json"
+  },
+  "projects": {
+    "deckio": {
+      "type": "application",
+      "root": "apps/deckio",
+      "entryFile": "main",
+      "sourceRoot": "apps/deckio/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/deckio/tsconfig.app.json"
+      }
+    },
+    "bookmark": {
+      "type": "application",
+      "root": "apps/bookmark",
+      "entryFile": "main",
+      "sourceRoot": "apps/bookmark/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/bookmark/tsconfig.app.json"
+      }
+    }
+  }
+}
